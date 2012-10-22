@@ -24,12 +24,19 @@
             <branches_resource>
                 <class>Galileo_Branches_Model_Resource</class>
                 <entities>
-                    <blacklist>
-                        <table>itabs_branches_blacklist</table>
-                    </blacklist>
+                    <branches>
+                        <table>galileo_branches</table>
+                    </branches>
                 </entities>
             </branches_resource>
         </models>
+		<resources>
+            <branches_setup>
+                <setup>
+                    <module>Galileo_Branches</module>
+                </setup>
+            </branches_setup>
+        </resources>
 	</global>
 	<frontend>
 		<routers>
