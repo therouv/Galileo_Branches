@@ -1,0 +1,43 @@
+<?php
+/* @var $helper Mage_Customer_Helper_Data */
+$customerHelper = Mage::helper('customer');
+
+/* @var $this Galileo_Branches_Block_List */
+$_branches = $this->getCollection();
+?>
+<div class="page-title">
+	<h1><?php echo $this->__('Branches')?></h1>
+</div>
+
+<?php if (!$_branches->count()):?>
+	<p><?php echo $this->__('There are currently no branches available.')?></p>
+<?php else: ?>
+<table cellpadding="0" cellspacing="0" border="0" class="data-table" id="branches-table">
+	<head>
+		<tr>
+			<th><?php echo $this->__('Branch')?></th>
+			<th><?php echo $this->__('Contact Information')?></th>
+			<th><?php echo $this->__('Business Hours')?></th>
+		</tr>
+	</head>
+	<tbody>
+		<?php foreach ($_branches as $_branch): ?>
+		<tr>
+			<td>
+			    <?php echo $_branch->getData('name')?><br />
+			    <?php echo $_branch->getData('street')?><br />
+			    <?php echo $_branch->getData('postcode')?> <?php echo $_branch->getData('city')?><br />
+			    <?php echo $_branch->getData('country')?><br />
+			</td>
+			<td>
+				<?php echo $customerHelper->__('Telephone')?>: <?php echo $_branch->getData('telephone')?><br />
+				<?php echo $customerHelper->__('Fax')?>: <?php echo $_branch->getData('fax')?><br />
+				<?php echo $customerHelper->__('Email')?>: <?php echo $_branch->getData('email')?><br />
+			</td>
+			<td><?php echo nl2br($_branch->getData('business_hours'))?></td>
+		</tr>
+		<?php endforeach; ?>
+	</tbody>
+</table>
+<script type="text/javascript">decorateTable('branches-table')</script>
+<?php endif;?>
