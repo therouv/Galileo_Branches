@@ -55,6 +55,15 @@
                 </branches>
             </updates>
         </layout>
+		<translate>
+		    <modules>
+		        <branches>
+		            <files>
+		                <default>Galileo_Branches.csv</default>
+		            </files>
+		        </branches>
+		    </modules>
+		</translate>
 	</frontend>
 	<admin>
 		<routers>
@@ -75,5 +84,14 @@
                 </branches>
             </updates>
         </layout>
+		<translate>
+		    <modules>
+		        <branches>
+		            <files>
+		                <default>Galileo_Branches.csv</default>
+		            </files>
+		        </branches>
+		    </modules>
+		</translate>
 	</adminhtml>
 </config>
