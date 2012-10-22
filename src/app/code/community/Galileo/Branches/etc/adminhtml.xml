@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <branches translate="title" module="branches">
+        	<title>Branches</title>
+        	<sort_order>75</sort_order>
+            <children>
+                <list translate="title" module="branches">
+                    <title>List</title>
+                    <action>branches/adminhtml_branches</action>
+                    <sort_order>10</sort_order>
+                </list>
+            </children>
+         </branches>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <branches>
+                    	<title>Branches</title>
+                        <sort_order>80</sort_order>
+                        <children>
+                            <list translate="title">
+                                <title>List</title>
+                                <sort_order>10</sort_order>
+                            </list>
+                        </children>
+                    </branches>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
