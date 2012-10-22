@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+	<branches_adminhtml_branches_index>
+		<reference name="content">
+			<block type="branches/adminhtml_branches" name="branches.adminhtml.branches" />
+		</reference>
+	</branches_adminhtml_branches_index>
+	
+	<branches_adminhtml_branches_edit>
+		<reference name="content">
+			<block type="branches/adminhtml_branches_edit" name="branches.adminhtml.branches.edit" />
+		</reference>
+	</branches_adminhtml_branches_edit>
+</layout>

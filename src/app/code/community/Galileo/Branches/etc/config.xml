@@ -48,6 +48,13 @@
 				</args>
 			</branches>
 		</routers>
+        <layout>
+            <updates>
+                <branches>
+                    <file>branches.xml</file>
+                </branches>
+            </updates>
+        </layout>
 	</frontend>
 	<admin>
 		<routers>
@@ -60,4 +67,13 @@
 			</branches>
 		</routers>
 	</admin>
+	<adminhtml>
+        <layout>
+            <updates>
+                <branches>
+                    <file>branches.xml</file>
+                </branches>
+            </updates>
+        </layout>
+	</adminhtml>
 </config>
