@@ -17,10 +17,19 @@
 			</branches>
 		</helpers>
 		<models>
-			<branches>
-				<class>Galileo_Branches_Model</class>
-			</branches>
-		</models>
+            <branches>
+                <class>Galileo_Branches_Model</class>
+                <resourceModel>branches_resource</resourceModel>
+            </branches>
+            <branches_resource>
+                <class>Galileo_Branches_Model_Resource</class>
+                <entities>
+                    <blacklist>
+                        <table>itabs_branches_blacklist</table>
+                    </blacklist>
+                </entities>
+            </branches_resource>
+        </models>
 	</global>
 	<frontend>
 		<routers>
