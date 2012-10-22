@@ -6,7 +6,7 @@ Facts
 -----
 - version: 0.1.0
 - [extension on GitHub](https://github.com/therouv/Galileo_Branches)
-- [Magento Buch]()
+- [Magento Buch](http://www.galileocomputing.de/2880)
 
 Description
 -----------
@@ -38,8 +38,7 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 
 Developer
 ---------
-Rouven Alexander Rieker
-[http://rouven-rieker.com](http://rouven-rieker.com)  
+Rouven Alexander Rieker - [http://rouven-rieker.com](http://rouven-rieker.com)  
 [@therouv](https://twitter.com/therouv)
 
 Licence
