@@ -22,4 +22,26 @@
 			</branches>
 		</models>
 	</global>
+	<frontend>
+		<routers>
+			<branches>
+				<use>standard</use>
+				<args>
+					<module>Galileo_Branches</module>
+					<frontName>branches</frontName>
+				</args>
+			</branches>
+		</routers>
+	</frontend>
+	<admin>
+		<routers>
+			<branches>
+				<use>admin</use>
+				<args>
+					<module>Galileo_Branches</module>
+					<frontName>branches</frontName>
+				</args>
+			</branches>
+		</routers>
+	</admin>
 </config>
