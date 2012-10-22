@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Galileo_Branches>
+			<version>0.1.0</version>
+		</Galileo_Branches>
+	</modules>
+	<global>
+		<blocks>
+			<branches>
+				<class>Galileo_Branches_Block</class>
+			</branches>
+		</blocks>
+		<helpers>
+			<branches>
+				<class>Galileo_Branches_Helper</class>
+			</branches>
+		</helpers>
+		<models>
+			<branches>
+				<class>Galileo_Branches_Model</class>
+			</branches>
+		</models>
+	</global>
+</config>
