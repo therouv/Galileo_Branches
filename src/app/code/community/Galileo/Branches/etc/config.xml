@@ -6,11 +6,11 @@
 		</Galileo_Branches>
 	</modules>
 	<global>
-		<blocks>
-			<branches>
-				<class>Galileo_Branches_Block</class>
-			</branches>
-		</blocks>
+        <blocks>
+            <branches>
+                <class>Galileo_Branches_Block</class>
+            </branches>
+        </blocks>
 		<helpers>
 			<branches>
 				<class>Galileo_Branches_Helper</class>
